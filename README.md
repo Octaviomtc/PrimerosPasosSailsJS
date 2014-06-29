@@ -21,3 +21,18 @@
  };
 
 ```
+# Run
+
+#### bower
+
+`
+bower install
+`
+
+
+#### npm install
+
+`npm install`
+
+
+#### start mongodb

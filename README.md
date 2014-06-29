@@ -3,26 +3,24 @@
 
 # Config
 
-## add local.js to  
+#### add local.js to config
 
-#### module.exports = {
-####
-####  adapters: {
-####
-####    'default': 'mongo',
-####
-####    mongo: {
-####
-####      module: 'sails-mongo',
-####      host: 'YOUR_HOST',
-####      user: 'YOUR_MONGO_USER',
-####      password: 'YOUR_MONGO_PASSWORD',
-####      database: 'NAME_DATA',
-####
-####      schema: true
-####    }
-####  }
-####
-#### };
+ module.exports = {
 
-hola
+  adapters: {
+
+    'default': 'mongo',
+
+    mongo: {
+
+      module: 'sails-mongo',
+      host: 'YOUR_HOST',
+      user: 'YOUR_MONGO_USER',
+      password: 'YOUR_MONGO_PASSWORD',
+      database: 'NAME_DATA',
+
+      schema: true
+    }
+  }
+
+ };

@@ -5,6 +5,7 @@
 
 #### add local.js to config
 
+```
  module.exports = {
   adapters: {
     'default': 'mongo',
@@ -18,3 +19,5 @@
     }
   }
  };
+
+```

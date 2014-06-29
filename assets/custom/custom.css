@@ -1,0 +1,14 @@
+.center{
+  text-align: center;
+}
+
+.form-signin{
+  padding: 19px 29px 29px;
+  background-color: #dfdfdf;
+  border-radius: 15px;
+}
+
+
+.form-signin input{
+  margin-top: 15px;
+}

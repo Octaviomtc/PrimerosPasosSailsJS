@@ -1,0 +1,25 @@
+{
+  "name": "PrimerosPasosSailsJS",
+  "version": "0.0.1",
+  "authors": [
+    "Octaviomtc <octavio150@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./assets/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1",
+    "jquery-validate": "~1.12.0"
+  }
+}

@@ -1,0 +1,24 @@
+<div class='container'>
+  <div class='row'>
+      <div class='col-md-6 col-md-offset-3'>
+        <form action="/session/create" method="post" class='form-signin' id="sign-up-form">
+          <h2 class='form-signin-heading center'>Please sign in ... </h2>
+
+          <% if(flash && flash.err) { %>
+            <ul class='alert alert-success'>
+          <% Object.keys(flash.err).forEach(function(error) { %>
+            <li><%- JSON.stringify(flash.err[error]) %></li>
+          <% }) %>
+            </ul>
+          <% } %>
+
+
+          <input type="text" name="email" class='form-control' placeholder='Email'>
+          <input type="password" name="password" class='form-control' placeholder='Password'>
+          <br />
+          <input type="submit"  class='btn btn-lg btn-primary btn-block' value='Sign in'/>
+          <input type="hidden" name="_csrf" value='<%= _csrf%>'/>
+        </form>
+      </div>
+  </div>
+</div>

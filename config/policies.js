@@ -16,7 +16,14 @@ module.exports.policies = {
 
   // Default policy for all controllers and actions
   // (`true` allows public access)
-  '*': 'flash'
+  '*': 'flash',
+
+
+  //Se agrega al mudelo user iniccio por sesiones
+  user: {
+    'new': "flash",
+    '*': "isAuthenticated"
+  }
 
   /*
 	// Here's an example of adding some policies to a controller

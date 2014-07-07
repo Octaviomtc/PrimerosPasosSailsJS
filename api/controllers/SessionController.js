@@ -51,6 +51,7 @@ module.exports = {
           req.session.flash = {
             err: usernamePasswordMismatchError
           }
+          console.log("hola");
           res.redirect('/session/new');
           return;
         }
